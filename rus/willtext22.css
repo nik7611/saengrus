@@ -1,0 +1,36 @@
+.whead{
+background-color: transparent;
+font : bold 24px Arial, Helvetica, sans-serif;
+color : Red;
+text-align : center;
+}
+.w1text {
+	TEXT-DECORATION: none;
+	background-color : #eaeaff;
+	font : normal 13px Arial, Helvetica, sans-serif;
+	color : #000099;
+}
+.w12text {
+	TEXT-DECORATION: none;
+	background-color : #d7f3fd;
+	font : normal 13px Arial, Helvetica, sans-serif;
+	color : #000099;
+}
+.w2text {
+TEXT-DECORATION: none;
+background-color : transparent;
+font : normal 14px Arial, Helvetica, sans-serif;
+color : black;
+}
+.w22text {
+TEXT-DECORATION: none;
+background-color : transparent;
+font : bold 14px Arial, Helvetica, sans-serif;
+color : black;
+}
+.w3text {
+TEXT-DECORATION: none;
+background-color : #dafeec;
+font : bold 12px Arial, Helvetica, sans-serif;
+color : #660000;
+}

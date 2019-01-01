@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>North York Temple</title>
+  <meta name="generator" content="Bluefish 2.2.7" >
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="nikolai" >
+<meta NAME="Description" CONTENT="Русская группа, Армия Спасения, Salvation Army, North York,
+Toronto, Canada">
+<meta NAME="Keywords" CONTENT="Русская группа, Армия Спасения, Salvation Army, North York,
+Иисус Христос, Дух Святой, Бог Отец, христиане, Торонто, Канада">
+
+</HEAD>
+
+<frameset rows="130,874" frameborder="0">
+    <frame src="index_up.html" name="up" scrolling="No" marginwidth="0" marginheight="0" frameborder="0">
+    <frameset cols="150,*">
+
+        <frame name="left" src="index_left.html" marginwidth="0" marginheight="0" scrolling="no"  frameborder="0">
+        <frame name="main" src="common2012.html" marginwidth="0" marginheight="0" scrolling="auto" frameborder="0">
+    </frameset>
+</frameset>
+
+</html>

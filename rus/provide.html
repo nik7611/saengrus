@@ -1,0 +1,390 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+ 
+
+
+    <title>CIRA - Canadian Internet Registration Authority - WHOIS</title>
+    <link rel="stylesheet" type="text/css" href="provide_files/reset.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="provide_files/fonts.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="provide_files/main.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="provide_files/splash.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="provide_files/print.css" media="print">
+
+    <!--[if IE 6]>
+    <link type="text/css" rel="stylesheet" media="all" href="http://www.cira.ca/themes/ciratheme/css/fix-ie6.css" />
+    <![endif]-->
+
+    <!--[if IE 7]>
+    <link type="text/css" rel="stylesheet" media="all" href="http://www.cira.ca/themes/ciratheme/css/fix-ie7.css" />
+    <![endif]-->
+
+    <script src="provide_files/jquery-1.js" type="text/javascript"></script>
+    <script src="provide_files/swfobject.js" type="text/javascript"></script>
+	<script src="provide_files/more_news.js" type="text/javascript"></script>
+	<script src="provide_files/popUps.js" type="text/javascript"></script>
+
+	    <style type="text/css">
+		   table.whois
+			 {
+			   font-family: verdana, arial, sans-serif;
+			   font-size: 108%;
+			   color: #666;
+			   width:70%;
+		 	 }				
+		  	.pageBanner .pageBannerWhyca {
+			  background: url('http://www.cira.ca/assets/Banners/page-banner-whyca.jpg') 50% 0 no-repeat;
+			  min-height: 213px;
+			  height: auto !important;
+			  height: 213px;
+			}
+		 </style>
+ </head><body class="whyca">
+    <!-- Begin wrapper -->
+    <div id="wrapper">
+    <!-- Begin branding / utilities / main nav -->
+    <div id="utilities" class="clearfix">
+        <div id="utilitiesBtm" class="clearfix">
+            <div id="utilitiesInner" class="clearfix">			
+				   <div id="logo" class="clearfix">	
+						<!--[if !IE]>-->
+						<a href="http://www.cira.ca/home-en/"><img id="logo" src="provide_files/logo-en.png" alt="CIRA - Canadian Internet Registration Authority" title="CIRA - Canadian Internet Registration Authority" border="0" height="119" width="170"></a>	        
+						<!--<[endif]-->
+
+						<!--[if gte IE 7]>
+						<a href="http://www.cira.ca/home-en/"><img id="logo" src="http://www.cira.ca/themes/ciratheme/images/wrapper/logo-en.png" width="170" height="119" alt="CIRA - Canadian Internet Registration Authority" title="CIRA - Canadian Internet Registration Authority" border="0" /></a>	        
+						<![endif]-->
+
+						<!--[if lte IE 6]>
+					    <a href="http://www.cira.ca/home-en/"><img id="logo" src="http://www.cira.ca/themes/ciratheme/images/wrapper/logo-en.gif" width="170" height="119" alt="CIRA - Canadian Internet Registration Authority" title="CIRA - Canadian Internet Registration Authority" border="0" /></a>	    
+						<![endif]-->
+				     </div>
+			
+                <ul id="utilityNavLeft" class="clearfix">               
+                    <li class="first link"><a href="http://www.cira.ca/corporate-contact/?lang=en" title="Go to the Contact Us page"><span>Contact Us</span></a></li>
+                     <li class="last"><a href="http://whois.cira.ca/public?LANG=fr">Français</a></li>
+                </ul>
+                <form action="http://www.cira.ca/search-results/SearchForm" id="searchField" method="get" enctype="application/x-www-form-urlencoded">
+                    <ul class="clearfix">
+                        <li><label for="search">Search</label></li>
+                        <li class="siteSearch"><input name="Search" id="search" class="searchField" type="text"></li>
+                        <li><input name="action_results" src="provide_files/btn-search.gif" value="Search" title="Search" class="searchBtn" type="image"></li>
+                    </ul>
+                </form>
+ 
+                <div id="utilityNavRight" class="clearfix">
+                    <ul>
+                        <li><a href="http://whois.cira.ca/public/" id="whoisSearchBtn">WHOIS Search</a></li>
+                    </ul>
+					
+								
+					<div id="whoIsSearch">
+						<h2>WHOIS Search</h2>		
+						<form action="http://whois.cira.ca/public/">
+							<input name="domaine" type="text"> .ca							
+							<input class="search-go-Button" src="provide_files/btn-go.gif" title="submit" value="RECHERCHE" name="submitWhois" type="image">
+							<input name="WHOIS" value="Informations" type="hidden">
+							<input name="LANGUE" value="en" type="HIDDEN">
+						</form>					
+					</div>					
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="branding" class="clearfix">
+        <!-- Begin main nav -->
+
+        <ul id="mainNav" class="clearfix">       
+            <li class="first"><a href="http://www.cira.ca/home-en/?lang=en" class="">Home</a></li>       
+            <li class=""><a href="http://www.cira.ca/why-ca/?lang=en" class="">Why .CA?</a></li>       
+            <li class=""><a href="http://www.cira.ca/registrants/?lang=en" class="current">Registrants</a></li>       
+            <li class=""><a href="http://www.cira.ca/registrars/?lang=en" class="">Registrars</a></li>        
+            <li class=""><a href="http://www.cira.ca/news/?lang=en" class="">News</a></li>       
+            <li class=""><a href="http://www.cira.ca/about-cira/?lang=en" class="">About CIRA</a></li>        
+            <li class=""><a href="http://www.cira.ca/facts/?lang=en" class="">Facts</a></li>        
+        </ul>
+        <!-- End main nav -->
+
+        <!-- Begin sub nav -->        
+        <ul id="subNav" class="clearfix">            
+            <li><a href="http://www.cira.ca/current-registrants/?lang=en" class="link"><span class="link">Current Registrants</span></a></li>
+            <li><a href="http://www.cira.ca/members/?lang=en" class="link "><span class="link">Members</span></a></li>
+            <li><a href="http://tbr.cira.ca/tbrlist_p" class="link "><span class="link">TBR (To Be Released Domains)</span></a></li>
+        </ul>       
+        <!-- End sub nav -->
+
+    </div>
+    <!-- End branding / utilities / main nav -->
+
+    <!-- Begin page banner -->
+    <div class="pageBanner">			
+       <div class="pageBannerWhyca">
+		<h1>why .ca?</h1>
+		<p>your key to Canada, and the world.</p>
+	  </div>
+    </div>
+
+    <!-- End page banner -->
+    
+
+    <!-- Begin inner wrapper -->
+    <div id="wrapperInner">
+
+<!-- Begin main content -->
+        <div id="mainContent" class="clearfix">
+            <div class="textContent">
+            <table class="whois" border="0" width="515">   
+  <tbody><tr>
+  <td colspan="4">
+<h2>WHOIS search results</h2>
+  </td> 
+  </tr>   
+</tbody></table>
+
+
+
+
+ <table class="whois" border="0" width="515">   
+   <tbody><tr>
+   <td colspan="4">
+	Personal information about the holder of this domain name is not 
+available in the search results because the registration is privacy 
+protected.
+  </td> 
+  </tr> 
+   <tr>
+   <td colspan="4">
+	Interested in contacting the holder of this domain name? CIRA offers 
+	an <a href="https://services.cira.ca/agree/mdf/index.action" target="_blank">online Message Delivery Form</a> that allows you to send a message 
+	to the Administrative Contact for this domain name.
+  </td> 
+  </tr>  
+</tbody></table>	 
+	 <p></p><hr color="cccccc" size="1" width="100%"><br>
+
+<table class="whois" border="0">
+<tbody><tr valign="center">
+  <td width="30%"><strong>Domain name:</strong></td>
+  <td width="2%">&nbsp;</td>
+  <td colspan="2" width="65%">northyorktemple.ca</td>
+</tr>
+
+<tr valign="center">
+  <td><strong>Domain name status:</strong></td>
+  <td>&nbsp;</td>
+  <td colspan="2">auto-renew grace</td>
+</tr> 
+ 
+<tr>
+  <td><strong>Creation date:</strong></td>
+  <td>&nbsp;</td>
+  <td colspan="2">2005/03/16</td> 
+</tr>
+ 
+<tr>
+  <td><strong>Expiry date:</strong></td>
+  <td>&nbsp;</td>
+  <td colspan="2">2012/03/15</td>
+ </tr>
+ <tr>
+   <td><strong>Updated date:</strong></td>
+   <td>&nbsp;</td>
+   <td colspan="2">2011/03/16</td>
+  </tr> 
+<tr valign="center">
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td colspan="2">&nbsp;</td>
+</tr>
+<tr valign="center">
+ <td width="150"><strong>Registrar name:</strong></td>
+ <td width="10">&nbsp;</td>
+ <td colspan="2" width="175">In2net Network Inc.</td>
+</tr>
+<tr valign="center">
+  <td><strong>Registrar number:</strong></td>
+  <td>&nbsp;</td>
+  <td colspan="2">571481</td>
+</tr>
+  <tr><td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td colspan="2">&nbsp;</td>
+</tr>
+
+<tr>
+  <td><strong><u>Name servers</u></strong></td>
+  <td>&nbsp;</td>
+  <td colspan="2">&nbsp;</td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 1 hostname:</strong></td>
+<td>&nbsp;</td>
+<td colspan="2">dns5.doteasy.com  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 2 hostname:</strong></td>
+<td></td>
+<td colspan="2">dns6.doteasy.com  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 3 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 4 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 5 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 6 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 7 hostname:</strong></td>
+<td>&nbsp;</td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 8 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 9 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 10 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 11 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 12 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+<tr valign="center">
+<td><strong>DNS 13 hostname:</strong></td>
+<td></td>
+<td colspan="2">  </td>
+</tr>
+
+<tr valign="center">
+  <td>&nbsp;</td>
+  <td></td>
+  <td colspan="2">&nbsp;</td>
+</tr>
+</tbody></table> 
+<br>
+
+
+
+   
+   
+
+<br>
+
+<p></p><hr color="#cccccc" size="1" width="100%">
+<br>
+
+<form action="/public" method="POST">
+ <table class="whois" border="0" width="515">
+   <tbody><tr>
+     <td colspan="4"><h2>Search WHOIS</h2></td>
+   </tr> 
+  <tr>
+    <td><strong>Domain name:</strong></td>
+    <td>&nbsp;</td>
+    <td colspan="2"><font face="verdana,arial" size="1"> 
+         <input style="visibility: hidden; display: none;" name="notused" type="text"> <input name="domain" size="40" maxlength="255" type="text"></font>
+         &nbsp;&nbsp;	<input name="whois" value="yes" type="hidden">
+	       <input name="search" value="Search WHOIS" type="submit">
+	       <input name="LANG" value="en" type="hidden">
+	       <input name="transac_type" value="WHOIS" type="hidden">
+     </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="2">(e.g. <em>cira.ca</em>)</td>
+  </tr>
+   </tbody></table>
+</form>
+<br>   
+            </div>
+        </div>
+        <!-- End main content -->
+
+<!-- Begin footer -->
+<div id="footer" class="clearfix">    
+    <p class="txtLeft">Didn't find what you were looking for:</p>
+    <img class="footerLogo" src="provide_files/footer-logo-cira.gif" alt="CIRA.CA - Canadian Internet Registration Authority" title="CIRA.CA - Canadian Internet Registration Authority" height="44" width="252">
+    <ul class="clearfix">
+    
+        <li class="left">
+            <h4>Our Company</h4>
+            <ul>
+                    <li><a href="http://www.cira.ca/about-cira/?lang=en" title="About CIRA">About CIRA</a></li>
+                    <li><a href="http://www.cira.ca/why-ca/?lang=en" title="Why .CA">Why .ca?</a></li>
+                    <li><a href="http://www.cira.ca/registrants/?lang=en" title="Registrants">Registrants</a></li>
+                    <li><a href="http://www.cira.ca/registrars/?lang=en" title="Registrars">Registrars</a></li>
+                    <li><a href="http://www.cira.ca/news/?lang=en" title="News">News</a></li>
+          </ul>
+        </li>
+        <li class="middle">
+            <h4>Things To Do</h4>
+            <ul>
+                 <li><a href="https://member.cira.ca/?lang=en" title="Membership login">Membership login</a></li>
+                 <li><a href="https://member.cira.ca/en/join.html" title="Membership sign up ">Membership sign up </a></li>
+                 <li><a href="http://www.cira.ca/current-registrants/?lang=en" title="Manage your .ca">Manage your .ca</a></li>
+                 <li><a href="http://www.cira.ca/become-a-registrar/?lang=en" title="For Registrars">For Registrars</a></li>
+                <li><a href="http://www.cira.ca/registrar-contact-us/?lang=en" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </li>
+        <li class="right">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="http://www.cira.ca/facts/?lang=en" title="Facts">Facts</a></li>
+                <li><a href="http://www.cira.ca/legal/?lang=en" title="Legal">Legal</a></li>
+                <li><a href="http://www.cira.ca/legal-notice/?lang=en" title="Legal Notice">Legal Notice</a></li>
+                <li><a href="http://www.cira.ca/sitemap/?lang=en" title="Sitemap">Sitemap</a></li>
+                <li><a href="http://www.cira.ca/assets/Documents/Legal/Registrants/privacy.pdf" title="Privacy Policy">Privacy Policy</a></li>
+            </ul>
+            <ul>
+              <li><a href="http://www.cira.ca/cdrp/?lang=en" title="CDRP">CDRP</a></li>
+             <li><a href="http://www.cira.ca/quarterly-releases/?lang=en" title="Quarterly Releases">Quarterly Releases</a></li>
+            </ul>
+            <ul>
+           </ul>
+        </li>    
+    </ul>
+</div>
+
+    <div id="siteInfo" class="clearfix">        
+        <p class="copyright">© 2009 Canadian Internet Registration Authority. All rights reserved</p>
+        <p class="terms">By accessing and using CIRA's website you agree that you have read, understood, and consent 
+       to the terms and conditions for the use of CIRA's website, as set out in
+       the <a href="http://www.cira.ca/website-terms-of-use/?lang=en" target="_blank">Website Terms of Use</a> 
+     and <a href="http://www.cira.ca/assets/Documents/Legal/Registrants/privacy.pdf">Privacy Policy</a>.</p>       
+    </div>
+    <!-- End footer -->
+    </div>
+    <!-- End inner wrapper -->
+</div>
+<!-- End wrapper -->
+</body></html>

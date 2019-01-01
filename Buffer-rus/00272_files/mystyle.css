@@ -1,0 +1,41 @@
+	BODY {margin-left: 0; margin-top: 0;}
+	DIV.One {background-color: #c5b0ff; font-size: xx-large; color: #ffeeee; font-weight: 700; text-align: center;}
+	DIV.Two {background-color: #E6B235; font-size: x-small; color: #ffeeee; font-weight: 700; text-align: center;}
+	DIV.Three {background-color: #35E319; font-size: x-small; color: #ffeeee; font-weight: 700; text-align: center;}
+	TABLE.Two {font-size: x-small; font-weight: 700; text-align: center;}
+	TABLE.Three {font-size: x-small; font-weight: 700;}
+	TABLE.Four {font-size: 10pt;}
+	TD.Tb {background-color: #e0d0ff; text-align: center; vertical-align: top; width: 15%;}
+	TD.Tt {vertical-align: top;}
+	TD.Tx {background-color: #eee2ff; vertical-align: top; width: 85%;}
+	DIV.Da {font-size: 105%; font-style: italic; font-weight: 700;}
+	DIV.Tx {text-align: justify; color: #000050;}
+	DIV.Tx1 {text-align: justify; width: 80%; margin-left: 20%;}
+	DIV.R {text-indent: 2em;}
+	DIV.Grn {text-indent: justify; color: green;}
+	DIV.Yel {text-indent: justify; color: #ff6600;}
+	DIV.Blu {text-indent: justify; color: blue;}
+	DIV.Rc {text-indent: 2em; color: #0000ff;}
+	DIV.Vst {font-size: 90%;}
+	DIV.Ep1 {position: relative; left: 60%; width: 40%; font-style: italic;font-weight: 700;}
+	DIV.Ep2 {text-align: right;}
+	DIV.Spi {position: relative; left: 10%;}
+	H1 {text-align: center;}
+	H2 {text-align: center;}
+	H3 {text-align: center;}
+	H4 {text-align: center;}
+	P.Wri {text-align: right; font-size: 110%;}
+	P.Sti {position: relative; left: 10%;}
+	P.Zag {font-size: "130%"; font-weight: 700; text-align: center; color: #0000ce;}
+	P.PZag {font-size: "110%"; font-weight: 500; text-align: center; color: #000099;}
+	A.Pro {font-size: 150%; font-weight: 700;}
+	A.Dou {font-size: "130%";}
+	A.Dou1 {font-size: "100%";}
+	A.PZag {color: #000099;}
+	A:visited {color: #008000;}
+	A:hover {color: #555555;}
+	A.Mail {color: #ff0000;}
+	A.Mail:visited {color: #aaaa00;}
+	A.Mail:hover {color: #0000aa;}
+	SPAN.Num {font-weight: 700; font-size: 130%;}
+	SPAN.Num2 {font-weight: 900; font-size: 150%;}

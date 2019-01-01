@@ -1,0 +1,54 @@
+
+  A:link {
+TEXT-DECORATION: none;
+COLOR: black;
+background-color : transparent;
+ }
+ A:hover {
+COLOR: #ff0000;
+font : bolder italic 12px  Helvetica, sans-serif;
+TEXT-DECORATION: underline
+ }
+ A:active {
+COLOR: red;
+TEXT-DECORATION: underline;
+background : grey;
+ }
+ A:visited {
+TEXT-DECORATION: none;
+ }
+.links {
+/*    BACKGROUND-COLOR: transparent; */
+MARGIN-BOTTOM: 0em;
+MARGIN-TOP: 0em;
+PADDING-LEFT: 2em;
+TEXT-INDENT: -1em;
+background : white;}
+.whead{
+background-color: transparent;
+font : bolder 18px Arial, Helvetica, sans-serif;
+color : Blue;
+text-align : center;
+ }
+.w5text{
+background-color: transparent;
+font : bold 12px Arial, Helvetica, sans-serif;
+color : White;
+text-align : center;
+ }
+.w3text {
+TEXT-DECORATION: none;
+background-color : #ccffff;
+font : bold 12px Arial, Helvetica, sans-serif;
+color : #660000;
+}
+.w4text {
+background-color: #add8fa;
+color: Black;
+font: bold 12px Arial,Helvetica, sans-serif;
+  }
+.w6text {
+background-color: #add8fa;
+color: Blue;
+font: bold 12px Arial,Helvetica, sans-serif;
+  }
